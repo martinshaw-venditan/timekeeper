@@ -1,5 +1,6 @@
 {
   "name": "timekeeper",
+  "author": "Martin Shaw at Venditan <mshaw@venditan.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
