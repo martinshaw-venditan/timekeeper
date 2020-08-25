@@ -6,13 +6,17 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: () => import('../views/Home.vue')
+    redirect: '/timers'
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
+    path: '/timers',
+    name: 'Home',
+    component: () => import('../views/TaskTimersView.vue')
+  },
+  {
+    path: '/sprints',
+    name: 'Sprints',
+    component: () => import('../views/SprintsView.vue')
   }
 ];
 
